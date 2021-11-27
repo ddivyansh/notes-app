@@ -4,6 +4,8 @@
 for npm package we have to install them, while node js packages can be accessed globally.
 
 // const fs=require("fs");
+//above fs is node module, but if wanted to use a locally saved js file then 
+``` require("./path/file.js") ```
 
 // writeFileSync allows us to access/create a file and add content. It's a sycnhronus function
 
